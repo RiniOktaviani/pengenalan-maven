@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="pelatihan.java.project.uts.model.UserModel" table="user_tbl">
+        <id name="iduser" column="iduser" type="string">
+            <generator class="assigned" />
+        </id>
+        <property name="nmuser" column="nmuser"/>
+        <property name="ususer" column="ususer"/>
+        <property name="pasuser" column="pasuser"/>
+        <property name="almtuser" column="almtuser"/>
+        <property name="notelp" column="notelp"/>
+    </class>
+</hibernate-mapping>
